@@ -1,0 +1,23 @@
+[project]
+name = "dl-in-htl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate",
+    "datasets",
+    "emoji>=2.15.0",
+    "evaluate",
+    "ipykernel",
+    "ipywidgets>=8.1.8",
+    "jupyter>=1.1.1",
+    "leaderboard>=3.7.3",
+    "lighteval==0.10.0",
+    "matplotlib>=3.10.8",
+    "more-itertools>=10.8.0",
+    "scikit-learn",
+    "sentencepiece>=0.2.1",
+    "torch>=2.10.0",
+    "transformers<5.0",
+]
